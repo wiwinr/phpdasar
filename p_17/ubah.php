@@ -44,7 +44,7 @@ $mhs = query("SELECT * FROM mahasiswa WHERE id = $id")[0];
     <title>Document</title>
 </head>
 <body>
-    <H1>Update data mahasiswa</H1>
+    <H1>Update data mahasiswa BAru</H1>
 
     <form action="" method="post" enctype="multipart/form-data">
     <input type="hidden" name="id" value="<?= $mhs["id"]; ?>">
